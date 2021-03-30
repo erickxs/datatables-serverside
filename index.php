@@ -46,7 +46,30 @@
     <h3 class="text-center mb-5">Lado Servidor</h3>
     <div class="row">
       <div class="col-12">
-        <!-- Aquí empieza el contenido de la tabla -->
+        <table id="postsTable" class="table table-striped table-bordered responsive" style="width:100%">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nombre</th>
+              <th>Ruta</th>
+              <th>Estado</th>
+              <th>Portada</th>
+              <th>Autor</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <th>ID</th>
+              <th>Nombre</th>
+              <th>Ruta</th>
+              <th>Estado</th>
+              <th>Portada</th>
+              <th>Autor</th>
+              <th>Acciones</th>
+            </tr>
+          </tfoot>
+        </table>
       </div>
     </div>
   </main>
